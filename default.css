@@ -1,0 +1,186 @@
+body
+{
+    font-family: Sans-Serif;
+    font-size: 12px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.calculator
+{
+    width: 320px;
+    height: 480px;
+    text-align: center;
+    background-color: #555;
+}
+
+#internals
+{
+    display: none;
+}
+
+.trace #internals
+{
+    display: inline-block;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 28px;
+    border-radius: 5px;
+    color: #FFF;
+    border: 1px solid #000;
+    background-color: #000;
+    width: 296px;
+    height: 62px;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.registers
+{
+    padding-left: 4px;
+    display: block;
+    float: left;
+    text-align: left;
+    color: #fff;
+}
+
+.registers span
+{
+    display: inline-block;
+    padding-right: 4px;
+}
+
+.display
+{
+    display: inline-block;
+    width: 288px;
+    height: 38px;
+    border-radius: 5px;
+    color: #F00;
+    border: 1px solid Black;
+    background-color: #400;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: monospace;
+    text-align: center;
+    padding: 12px 4px 4px 4px;
+    margin-top: 28px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button
+{
+    cursor: pointer;
+    position: absolute;
+}
+
+.fast .display
+{
+    color: #0F0;
+    background-color: #040;
+}
+
+.trace .display
+{
+    height: 28px;
+    padding: 1px 4px 3px 4px;
+    margin-top: 8px;
+}
+
+.spacer
+{
+    visibility: hidden;
+}
+
+.keys span
+{
+    display: inline-block;
+    width: 40px;
+    height: 18px;
+    padding: 6px 4px 4px 4px;
+    margin: 18px 4px 0 4px;
+    border-radius: 5px;
+    text-align: center;
+    vertical-align: bottom;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.trace .keys span
+{
+    margin: 14px 4px 0 4px;
+    height: 15px;
+}
+
+.keys .super
+{
+    height: 20px;
+    padding-top: 4px;
+}
+
+.trace .keys .super
+{
+    height: 17px;
+}
+
+.keys .enter
+{
+    width: 102px;
+}
+
+.keys .operator
+{
+    width: 20px;
+    font-size: 12px;
+}
+
+.keys .black
+{
+    color: White;
+    border: 1px solid Black;
+    background-color: #222;
+}
+
+.keys .gray
+{
+    color: White;
+    border: 1px solid #222;
+    background-color: #444;
+}
+
+.keys .blue
+{
+    color: White;
+    border: 1px solid #08A;
+    background-color: #0AF;
+}
+
+.keys .white
+{
+    width: 60px;
+    margin-left: 11px;
+    color: Black;
+    border: 1px solid #BBB;
+    background-color: #EEE;
+}
+
+.trace .keys .white
+{
+    margin-left: 11px;
+}
+
+.info
+{
+    width: 284px;
+    text-align: left;
+    color: #fff;
+    padding: 0 18px 0 18px;
+}
+
+.info a
+{
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Disassembler", "Disassembler\Disassembler.fsproj", "{F66588C3-4F5E-473C-AA53-5EFEFC25AC41}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Assembler", "Assembler\Assembler.fsproj", "{E51037E5-0310-44B9-B8F1-ED15AAB3BFCF}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Calculator", "Calculator\Calculator.fsproj", "{B112CD0B-8351-47B2-BC14-2CA0D7B8C978}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B112CD0B-8351-47B2-BC14-2CA0D7B8C978}.Debug|x86.ActiveCfg = Debug|x86
+		{B112CD0B-8351-47B2-BC14-2CA0D7B8C978}.Debug|x86.Build.0 = Debug|x86
+		{B112CD0B-8351-47B2-BC14-2CA0D7B8C978}.Release|x86.ActiveCfg = Release|x86
+		{B112CD0B-8351-47B2-BC14-2CA0D7B8C978}.Release|x86.Build.0 = Release|x86
+		{E51037E5-0310-44B9-B8F1-ED15AAB3BFCF}.Debug|x86.ActiveCfg = Debug|x86
+		{E51037E5-0310-44B9-B8F1-ED15AAB3BFCF}.Debug|x86.Build.0 = Debug|x86
+		{E51037E5-0310-44B9-B8F1-ED15AAB3BFCF}.Release|x86.ActiveCfg = Release|x86
+		{E51037E5-0310-44B9-B8F1-ED15AAB3BFCF}.Release|x86.Build.0 = Release|x86
+		{F66588C3-4F5E-473C-AA53-5EFEFC25AC41}.Debug|x86.ActiveCfg = Debug|x86
+		{F66588C3-4F5E-473C-AA53-5EFEFC25AC41}.Debug|x86.Build.0 = Debug|x86
+		{F66588C3-4F5E-473C-AA53-5EFEFC25AC41}.Release|x86.ActiveCfg = Release|x86
+		{F66588C3-4F5E-473C-AA53-5EFEFC25AC41}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
