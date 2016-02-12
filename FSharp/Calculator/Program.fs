@@ -59,7 +59,7 @@ let calculator input output rom =
                               | 6  -> move [0, 3; 3, 4; 4, 5]
                               | 8  -> visible := false
                               | 10 -> setreg 2 6 (0, 13)
-                              | 12 -> iterir (fun i -> let t = r.[2].[i] in move [2,3; 3,4; 4,5]; r.[5].[i] <- t)
+                              | 12 -> iterir (fun i -> let t = r.[2].[i] in List.iter (fun (a, b) -> r.[a].[i] <- r.[b].[i]) [2,3; 3,4; 4,5]; r.[5].[i] <- t)
                               | 14 -> for i in 0..13 do for j in 0..7 do r.[j].[i] <- 0
                       | 11 -> carry := !p = arg
                       | 12 -> pc := !ret
@@ -138,7 +138,7 @@ test "pt"            " .0548861507   " // tan
 test "pgas"          " 29.81161556   " // sin-1
 test "pgac"          " 60.18838444   " // cos-1
 test "pat"           " 72.34321286   " // tan-1
-test "1 2 3 4 Swrrr" " 2.            " // stack
+test "1 2 3 4wrrrr"  " 3.            " // stack
 test "123>456 ,<"    " 123.          " // memory
 test "9sctatacas"    " 9.002983113   " // "Calculator Forensics" result
 test "9 2^"          " 512.          " // power
