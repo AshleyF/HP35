@@ -44,7 +44,7 @@
     html += '</span>';
     document.getElementById("calc").innerHTML = html;
     document.getElementById("info").innerHTML = 
-    '<p>Tap the display to cycle through Tracing, Fast (green) and Normal (red) modes. Tracing shows internal registers and instructions while Fast mode executes at full speed. Also, have a look at <a href="SKin/">the photorealistic skin</a>.</p>' +
+    '<p>Tap the display to cycle through Tracing, Fast (green) and Normal (red) modes. Tracing shows internal registers and instructions while Fast mode executes at full speed. Also, have a look at <a href="Skin/">the photorealistic skin</a>.</p>' +
     document.getElementById("info").innerHTML +
     '<p id="unittests"><a href="javascript:unitTests()">Run Unit Tests</a></p>';
 }
