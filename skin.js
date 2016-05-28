@@ -4,5 +4,5 @@
         '<p>From your iPhone, tap [+] and "Add to Home Screen". When launched from there it will run full screen and fits nicely.</p>' +
         '<p>From a desktop machine, keyboard shortcuts are available (hover the mouse over a key for a hint).</p>' +
         '<p>For more info on how it was made, <a href="http://blogs.msdn.com/b/ashleyf/archive/tags/hpcalcs/">check out my blog</a>. Please send bug reports to <a href="mailto:ashleyf@microsoft.com?subject=HP%20Microcode%20Emulator">AshleyF</a></p>' +
-        '<p>Here\'s the <a href="Manual">Operating Manual</a>.</p>';
+        '<p>Here\'s the <a href="http://ashleyf.github.io/HP35/Skin/Manual">Operating Manual</a>.</p>';
 }
